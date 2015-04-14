@@ -24,7 +24,7 @@ import java.util.List;
 public class AMFUtils {
     public static byte[] serializeMagic = new byte[] {0x66, 0x6C, 0x65, 0x78}; //flex
     public static String AMFHeader = "application/x-amf";
-    public static String SERIALIZEHEADER = "AMFSERIALIZED-GOODNESS";
+    public static String SERIALIZEHEADER = "Via:AMFSERIALIZED-GOODNESS";
 
 	public static byte[] toXML(byte[] message, IExtensionHelpers helpers)
     {
